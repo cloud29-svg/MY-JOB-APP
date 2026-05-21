@@ -18,8 +18,8 @@ function JobCard({ title, company, location, salary }: JobCardProps) {
       borderRadius: '14px',
      }}>
 
-      <h3 style={{color: 'white'}}>{title}</h3>
-      <p style={{ fontSize: '18px', color: 'white', margin: '12px 0' }}>
+      <h3 style={{color: 'gray'}}>{title}</h3>
+      <p style={{ fontSize: '18px', color: 'gray', margin: '12px 0' }}>
       {company}</p>
       <button onClick={() => setShowDetails(!showDetails)}
         style={{ backgroundColor: showDetails ? '#f95454' : '#77cdff', 

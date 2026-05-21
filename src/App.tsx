@@ -1,5 +1,6 @@
 import JobList from './components/JobList';
 import { jobs } from './data/jobs';
+import './App.css';
 
 function App() {
   return (
